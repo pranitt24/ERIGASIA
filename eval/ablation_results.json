@@ -1,0 +1,46 @@
+{
+  "Prompted_RAG_Baseline": {
+    "schema_validity_rate": 1.0,
+    "bloom_calibration_acc": 1.0,
+    "rubric_sum_acc": 0.8333,
+    "grading_schema_validity": 1.0,
+    "grading_qwk": 0.8785,
+    "grading_mae": 1.4,
+    "gold_scores": [
+      10,
+      3,
+      9,
+      6,
+      2
+    ],
+    "pred_scores": [
+      8,
+      2,
+      7,
+      6,
+      0
+    ]
+  },
+  "FineTuned_RAG_Ergasia": {
+    "schema_validity_rate": 1.0,
+    "bloom_calibration_acc": 1.0,
+    "rubric_sum_acc": 0.8333,
+    "grading_schema_validity": 1.0,
+    "grading_qwk": 0.9126,
+    "grading_mae": 1.0,
+    "gold_scores": [
+      10,
+      3,
+      9,
+      6,
+      2
+    ],
+    "pred_scores": [
+      8,
+      3,
+      8,
+      6,
+      0
+    ]
+  }
+}
